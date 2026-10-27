@@ -1,5 +1,5 @@
 *{
-    box-sizing: borderbox;
+    box-sizing: border-box;
     margin:0px;
     padding:0px;
 }
@@ -8,10 +8,11 @@ body {
     font-size:20px;
     color:#26231e;
     background:#faf6ef;
-    line-height:2;
-    margin:auto;
+    line-height:1.65;
 }
 img{
+    display:block;
+    width:100%;
     max-width: 100% ;
     height:auto;
 }
