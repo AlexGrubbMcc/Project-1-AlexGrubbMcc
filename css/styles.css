@@ -63,3 +63,9 @@ h3{font-size: 24px;}
 .page-section{ padding: 48px 0px; }
 .section-head{ margin-bottom: 24px; }
 .history-copy p{ max-width: 500px; margin-bottom: 24px; }
+.bento-grid{
+    display:grid;
+    gap:12px;
+    grid-template: auto / 1fr 1fr 1fr 1fr; 
+    padding: 24px; border: 2px solid #222638; 
+}
