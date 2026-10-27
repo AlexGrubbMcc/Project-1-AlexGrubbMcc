@@ -60,3 +60,6 @@ h3{font-size: 24px;}
     letter-spacing: 0px;
 }
 .lede{ font-size: 22px; max-width: 300px; }
+.page-section{ padding: 48px 0px; }
+.section-head{ margin-bottom: 24px; }
+.history-copy p{ max-width: 500px; margin-bottom: 24px; }
