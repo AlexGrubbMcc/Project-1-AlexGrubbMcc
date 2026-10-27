@@ -110,3 +110,26 @@ h3{font-size: 24px;}
 .site-footer{ background: #26231e; color: white; padding: 24px; }
 .site-footer .inner{ max-width: 1120px; margin: 0px auto; }
 .site-footer a{ color: white; }
+
+.site-nav,main,.hero{
+    max-width: 1168px;
+    margin: 0px auto;
+    padding: 24px;
+}
+.site-nav,.site-nav ul,.site-footer .inner{
+    display: flex;
+    gap: 24px;
+}
+.site-nav,.site-footer .inner{
+    justify-content: space-between;
+}
+.site-nav{
+    align-items: center;
+    border-top: 1px solid #26231e;
+}
+.site-nav ul{ list-style: none; }
+.site-name,.site-nav a,.site-footer .inner{ font-size: 15px; }
+.site-name{ margin: 0px; }
+.site-name,.site-nav .current-page,.step-label{ font-weight: 600; }
+.site-nav a{ color: #26231e; }
+.site-nav .current-page{ color: #a92724; }
