@@ -96,7 +96,7 @@ h3{font-size: 24px;}
 .bento-grid,.hero-panels{ gap: 12px; }
 .bento-grid{ grid-template: auto / 1fr 1fr 1fr 1fr; }
 .bento-grid article,.comic-note{ padding: 24px; border: 2px solid #222638; }
-.feature-panel,.summary-panel,.hero-reveal{ grid-column: span 2; }
+.feature-panel,.summary-panel,.hero-medium{ grid-column: span 2; }
 .feature-panel{ grid-row: span 2; background: #ffdf73; }
 .feature-panel h3{ font-size: 40px; }
 .detail-panel{ background: white; }
