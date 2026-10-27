@@ -63,9 +63,50 @@ h3{font-size: 24px;}
 .page-section{ padding: 48px 0px; }
 .section-head{ margin-bottom: 24px; }
 .history-copy p{ max-width: 500px; margin-bottom: 24px; }
-.bento-grid{
-    display:grid;
-    gap:12px;
-    grid-template: auto / 1fr 1fr 1fr 1fr; 
-    padding: 24px; border: 2px solid #222638; 
+
+.hero,.history,.cards,.bento-grid,.use-columns,.hero-panels{
+    display: grid;
+    gap: 24px;
 }
+.hero,.use-columns,.hero-panels{
+    grid-template: auto / 1fr 1fr;
+}
+.hero,.history,.use-columns{ gap: 48px; }
+.hero{ align-items: center; padding: 64px 24px; }
+.history{ grid-template: auto / 1fr 2fr; }
+.cards{ grid-template: auto / 1fr 1fr 1fr; }
+.card{ background: white; border: 1px solid #26231e; padding: 16px; }
+.card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    background: white;
+}
+.card-image a{ width: 100%; }
+.card h3{ margin-top: 24px; }
+.card p,.photo-note{ font-size: 16px; }
+.eyebrow{
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a92724;
+}
+.bento-grid,.hero-panels{ gap: 12px; }
+.bento-grid{ grid-template: auto / 1fr 1fr 1fr 1fr; }
+.bento-grid article,.comic-note{ padding: 24px; border: 2px solid #222638; }
+.feature-panel,.summary-panel,.hero-reveal{ grid-column: span 2; }
+.feature-panel{ grid-row: span 2; background: #ffdf73; }
+.feature-panel h3{ font-size: 40px; }
+.detail-panel{ background: white; }
+.summary-panel,.comic-note{ background: #e6eef7; }
+.advice-heading{ margin-top: 48px; }
+
+.sources{ font-size: 14px; }
+.sources h2{ font-size: 25px; }
+.sources ul{ margin-left: 20px; margin-bottom: 16px; }
+.sources li{ margin-bottom: 10px; }
+.site-footer{ background: #26231e; color: white; padding: 24px; }
+.site-footer .inner{ max-width: 1120px; margin: 0px auto; }
+.site-footer a{ color: white; }
