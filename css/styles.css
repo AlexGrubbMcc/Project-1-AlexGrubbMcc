@@ -32,3 +32,16 @@ h3{font-size: 24px;}
     display:grid;
     gap:24px;
 }
+.hero-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 110px;
+    padding: 24px;
+    margin: 0px;
+    background: white;
+    border: 3px solid #222638;
+    font-size: 24px;
+    font-weight: 600;
+}
