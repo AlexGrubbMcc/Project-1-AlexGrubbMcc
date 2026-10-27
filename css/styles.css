@@ -46,5 +46,5 @@ h3{font-size: 24px;}
     font-weight: 600;
 }
 .hero-action{ grid-row: span 2; background: #e9c85e; font-size: 42px; }
-.hero-pause{ background: #d0e0f3; }
-.hero-reveal{ background: #ce2c29; color: white; }
+.hero-break{ background: #d0e0f3; }
+.hero-medium{ background: #ce2c29; color: white; }
