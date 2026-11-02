@@ -143,3 +143,30 @@ h3{font-size: 24px;}
     padding: 24px;
     border: 1px solid #26231e;
 }
+.paper-photo{ border: 8px solid white; }
+.collage-page h1{ font-size: 56px; }
+.cut-word{ display: inline-block; background: #edd36a; padding: 5px 8px; }
+.dark-paper{
+    background: #26231e;
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
+}
+.collage-page .card{ padding: 18px; background: #fffdf6; }
+.collage-page .punk-card{ background: #f5d5ce; }
+.collage-page .scrapbook-card{ background: #dce7df; }
+.collage-styles .card-image{ height: 260px; }
+.zine-card img{ max-width: 260px; }
+.punk-card img{ max-width: 200px; }
+.collage-history{ grid-template: auto / 1fr 1fr; }
+.history-photo img,.history-reference img{ margin: 0px auto; }
+.history-photo img{ max-width: 330px; }
+.history-reference{ margin: 24px 0px; }
+.history-reference img{ max-width: 320px; }
+.how-to-copy p,.how-to-steps li{ margin-bottom: 20px; }
+.how-to-steps{ margin-left: 24px; }
+.photo-note{ margin-top: 16px; }
+.image-caption{
+    margin: 0px;
+    font-size: 13px;
+    color: #625b52;
+    padding-top: 12px;}
