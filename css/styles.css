@@ -133,3 +133,13 @@ h3{font-size: 24px;}
 .site-name,.site-nav .current-page,.step-label{ font-weight: 600; }
 .site-nav a{ color: #26231e; }
 .site-nav .current-page{ color: #a92724; }
+
+
+
+.collage-page{ background: #dddddd; }
+.collage-page .hero{ gap: 24px; }
+.paper-note,.paper-photo{
+    background: #dddddd;
+    padding: 24px;
+    border: 1px solid #26231e;
+}
